@@ -1,26 +1,25 @@
 package config
 
 import (
-	"os"
+    "os"
 )
 
 type Config struct {
-	DBUser 	string
-	DBPassword	string
-	DBName	string
-	DBHost	string
-	DBPort 	string
-	LinkedInAccessToken	string
+    DBUser     string
+    DBPassword string
+    DBName     string
+    DBHost     string
+    DBPort     string
+    LinkedInAccessToken string
 }
 
 func LoadConfig() Config {
-	return Config {
-		DBUser:             os.Getenv("DB_USER"),
+    return Config{
+        DBUser:             os.Getenv("DB_USER"),
         DBPassword:         os.Getenv("DB_PASSWORD"),
         DBName:             os.Getenv("DB_NAME"),
         DBHost:             os.Getenv("DB_HOST"),
         DBPort:             os.Getenv("DB_PORT"),
         LinkedInAccessToken: os.Getenv("LINKEDIN_ACCESS_TOKEN"),
-	}
+    }
 }
-
