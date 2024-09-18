@@ -27,3 +27,14 @@ This project is a backend service built using Golang and the Gin web framework, 
 ```bash
 git clone https://github.com/your-username/linkedin-integration.git
 cd linkedin-integration
+
+
+### Key Points in the README:
+1. **Overview**: Explains the purpose of the project.
+2. **Requirements**: Details the dependencies and environment setup.
+3. **Installation Steps**: Describes how to install and configure the project.
+4. **API Endpoints**: Lists the key API endpoints and their expected requests and responses.
+5. **Technologies Used**: Summarizes the technologies in the stack.
+6. **LinkedIn API Setup**: Provides guidance for integrating with LinkedIn's API.
+
+
